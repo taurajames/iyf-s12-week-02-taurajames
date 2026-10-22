@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A demonstration of semantic HTML elements by Taura James.">
+    <title>Semantic HTML Exercise | Taura James</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Understanding Semantic HTML</h1>
+        <p>Organising webpages with meaningful elements</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>What Is Semantic HTML?</h2>
+
+            <p>
+                Semantic HTML uses elements that describe the meaning
+                and purpose of their content. Examples include header,
+                nav, main, article, aside and footer.
+            </p>
+
+            <section>
+                <h3>Why Semantic HTML Matters</h3>
+
+                <p>
+                    Semantic elements make webpages easier to understand,
+                    maintain and navigate. They also help assistive
+                    technologies identify important page regions.
+                </p>
+            </section>
+
+            <section>
+                <h3>Examples of Semantic Elements</h3>
+
+                <ul>
+                    <li><strong>header:</strong> Introductory content.</li>
+                    <li><strong>nav:</strong> Navigation links.</li>
+                    <li><strong>main:</strong> The main content of the page.</li>
+                    <li><strong>article:</strong> Self-contained content.</li>
+                    <li><strong>aside:</strong> Related or supplementary content.</li>
+                    <li><strong>footer:</strong> Closing or author information.</li>
+                </ul>
+            </section>
+        </article>
+
+        <aside aria-labelledby="tip-heading">
+            <h2 id="tip-heading">Learning Tip</h2>
+
+            <p>
+                Choose an HTML element based on the meaning of the
+                content, not just how you want it to look.
+            </p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Taura James.</p>
+        <p><a href="index.html">Return to the portfolio</a></p>
+    </footer>
+</body>
+</html>

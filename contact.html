@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Taura James about web development, projects, collaboration
+     and learning opportunities.">
+    <title>Contact Me | Taura James</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <p>Let's connect and share ideas</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Get in Touch</h2>
+
+            <p>
+                Have a question, project idea or opportunity to
+                collaborate? Use the form below to share your message.
+            </p>
+
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Your Contact Details</legend>
+
+                    <p>
+                        <label for="full-name">Full name:</label>
+                        <input
+                            type="text"
+                            id="full-name"
+                            name="full-name"
+                            autocomplete="name"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="email">Email address:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="subject">Subject:</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Choose a subject</option>
+                            <option value="web-development">Web development</option>
+                            <option value="collaboration">Project collaboration</option>
+                            <option value="opportunity">Learning or career opportunity</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Message</legend>
+
+                    <p>
+                        <label for="message">Message:</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            required
+                        ></textarea>
+                    </p>
+                </fieldset>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section aria-labelledby="email-heading">
+            <h2 id="email-heading">Contact by Email</h2>
+
+            <p>
+                You can also contact me at:
+                <a href="mailto:taurajames4@gmail.com">
+                    taurajames4@gmail.com
+                </a>
+            </p>
+
+            <p>
+                You can find my coding projects on
+                <a
+                    href="https://github.com/taurajames"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    my GitHub profile
+                </a>.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Taura James. All rights reserved.</p>
+        <p><a href="index.html">Return to Home</a></p>
+    </footer>
+</body>
+</html>
+
