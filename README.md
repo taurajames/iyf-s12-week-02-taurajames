@@ -38,3 +38,7 @@ Taura James
 ## Academy
 
 IYF WECAN Academy - Season 12
+
+## Live Demo
+
+[View my live Week 2 portfolio](https://taurajames.github.io/iyf-s12-week-02-taurajames/)
