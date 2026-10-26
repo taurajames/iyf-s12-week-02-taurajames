@@ -16,6 +16,15 @@ This project builds on my Week 1 portfolio and focuses on improving my CSS skill
 - Hover effects and keyboard focus
 - Accessible and consistent page styling
 
+## Lessons Learned
+
+- I learned how the CSS box model uses content, padding, borders and margins.
+- I practised using CSS variables to keep colors and typography consistent.
+- I learned how Flexbox helps arrange navigation links.
+- I practised CSS Grid to create responsive project layouts.
+- I learned to use media queries for different screen sizes.
+- I improved accessibility by adding hover effects and keyboard focus styles.
+
 ## Technologies Used
 
 - HTML
